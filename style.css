@@ -1,0 +1,159 @@
+/* Universal Selector */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* Element Selector */
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+}
+
+/* Header */
+
+header{
+background:#003366;
+color:white;
+padding:20px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header h1{
+display:inline-block;
+}
+
+nav{
+display:inline-block;
+float:right;
+}
+
+nav ul{
+list-style:none;
+}
+
+nav ul li{
+display:inline-block;
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+}
+
+/* Welcome */
+
+.welcome{
+text-align:center;
+padding:40px;
+background:white;
+}
+
+#apply{
+margin-top:20px;
+padding:12px 25px;
+background:green;
+color:white;
+border:none;
+}
+
+/* Group Selector */
+
+h2,p{
+margin-bottom:10px;
+}
+
+.title{
+text-align:center;
+margin:30px;
+}
+
+/* Courses */
+
+.courses{
+text-align:center;
+}
+
+.card{
+display:inline-block;
+width:250px;
+background:white;
+margin:20px;
+padding:20px;
+border:2px solid gray;
+position:relative;
+}
+
+.badge{
+position:absolute;
+top:5px;
+right:5px;
+background:red;
+color:white;
+padding:10px 20px;
+}
+
+/* Notice Board */
+
+#notice{
+width:80%;
+height:150px;
+margin:auto;
+background:white;
+border:2px solid black;
+padding:15px;
+overflow:auto;
+}
+
+/* Campus */
+
+.campus{
+margin:50px;
+}
+
+.image{
+position:relative;
+max-width:800px;
+margin:auto;
+}
+
+.image img{
+width:100%;
+}
+
+.info{
+position:absolute;
+bottom:20px;
+left:20px;
+background:white;
+padding:15px;
+border:1px solid black;
+}
+
+/* Fixed Button */
+
+.contact{
+position:fixed;
+bottom:20px;
+right:20px;
+background:blue;
+color:white;
+padding:15px;
+text-decoration:none;
+}
+
+/* Footer */
+
+footer{
+background:#003366;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
